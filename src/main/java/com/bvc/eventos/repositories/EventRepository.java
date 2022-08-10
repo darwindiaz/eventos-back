@@ -10,5 +10,5 @@ import com.bvc.eventos.models.EventModel;
 @Repository
 public interface EventRepository extends CrudRepository<EventModel, Long> {
 
-    public abstract ArrayList<EventModel> findByOrigin(Integer origin);
+    public abstract ArrayList<EventModel> findByOrigin(String origin);
 }

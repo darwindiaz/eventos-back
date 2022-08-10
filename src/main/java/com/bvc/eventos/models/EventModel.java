@@ -21,7 +21,7 @@ public class EventModel {
 
     private Date date;
     private String event;
-    private Integer origin;
+    private String origin;
     private Integer count;
     private Float cost;
 
@@ -49,11 +49,11 @@ public class EventModel {
         this.date = date;
     }
 
-    public Integer getOrigin() {
+    public String getOrigin() {
         return origin;
     }
 
-    public void setOrigin(Integer origin) {
+    public void setOrigin(String origin) {
         this.origin = origin;
     }
 

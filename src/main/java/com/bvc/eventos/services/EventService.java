@@ -23,7 +23,7 @@ public class EventService {
         return eventRepository.save(event);
     }
 
-    public ArrayList<EventModel> getByOrigin(Integer origin) {
+    public ArrayList<EventModel> getByOrigin(String origin) {
         return eventRepository.findByOrigin(origin);
     }
 }

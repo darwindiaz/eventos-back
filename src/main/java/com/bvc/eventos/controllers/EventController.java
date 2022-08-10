@@ -33,7 +33,7 @@ public class EventController {
     }
 
     @GetMapping("/buscar")
-    public ArrayList<EventModel> getEventsByOrigin(@RequestParam("origin") Integer origin) {
+    public ArrayList<EventModel> getEventsByOrigin(@RequestParam("origin") String origin) {
         return eventService.getByOrigin(origin);
     }
 
