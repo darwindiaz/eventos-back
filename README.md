@@ -12,6 +12,6 @@ Para inicar el proyecto debemos tener en cuenta en que sistema operativo esta al
 
 ## EndPoints
 
-- `<eventos>` : http://localhost:8080/eventos/, al utilizar esta URL con una petición GET se exponen todos los eventos digitales
-- `<eventos>` : http://localhost:8080/eventos/, al utilizar esta URL con una petición POST y body adecuado se puede realizar la creación o actulización de un registro de evento digital
+- `<obtener>` : http://localhost:8080/eventos/, al utilizar esta URL con una petición GET se exponen todos los eventos digitales
+- `<crear>` : http://localhost:8080/eventos/, al utilizar esta URL con una petición POST y body adecuado se puede realizar la creación o actulización de un registro de evento digital
 - `<buscar>` : http://localhost:8080/eventos/buscar?origin={id} en esta URL se exponen solo los evento digitales que concuerdan con el id del origen. El parametro es de tipo numerico {id}
