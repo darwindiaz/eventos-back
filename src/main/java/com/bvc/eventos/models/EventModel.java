@@ -20,6 +20,7 @@ public class EventModel {
     private Long id;
 
     private Date date;
+    private String event;
     private Integer origin;
     private Integer count;
     private Float cost;
@@ -30,6 +31,14 @@ public class EventModel {
 
     public void setId(Long id) {
         this.id = id;
+    }
+
+    public String getEvent() {
+        return event;
+    }
+
+    public void setEvent(String event) {
+        this.event = event;
     }
 
     public Date getDate() {
